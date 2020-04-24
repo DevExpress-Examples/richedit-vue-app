@@ -8,7 +8,7 @@ This example is a ready-to-use client Vue application with the DevExpress RichEd
 
 ## Quick Start
 
-1. In the command prompt, download and install npm packages that are used in the application:
+1. Open the root folder. In the command prompt, download and install npm packages that are used in the application:
 
     ```
     npm install
@@ -24,5 +24,6 @@ This example is a ready-to-use client Vue application with the DevExpress RichEd
 *Files to look at*:
 
 * [App.vue](./src/App.vue)
+* [main.js](./src/main.js)
 
 <!-- default file list end -->
