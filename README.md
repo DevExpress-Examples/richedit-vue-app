@@ -10,15 +10,15 @@ This example is a ready-to-use client Vue application with the DevExpress RichEd
 
 1. Open the root folder. In the command prompt, download and install npm packages that are used in the application:
 
-    ```
-    npm install
-    ```
+```
+npm install
+```
 
 2. In the same folder, run the following command to compile and run the application:
 
-    ```bash
-    npm run serve
-    ```
+```bash
+npm run serve
+```
 
 <!-- default file list -->
 *Files to look at*:
