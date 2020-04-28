@@ -3,7 +3,7 @@
 This example is a ready-to-use client Vue application with the DevExpress RichEdit component.
 
 ## Requirements
-* To use the RichEdit control in an Angular application, you need to have a [Universal, DXperience, or ASP.NET subscription](https://www.devexpress.com/buy/net/).
+* To use the RichEdit control in a Vue application, you need to have a [Universal, DXperience, or ASP.NET subscription](https://www.devexpress.com/buy/net/).
 * Versions of the devexpress npm packages should be identical (their major and minor versions should be the same).
 
 ## Quick Start

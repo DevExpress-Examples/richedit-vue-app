@@ -14,6 +14,7 @@ export default {
   rich: RichEdit,
   components: {
   },
+  
   mounted(){
     // the createOptions() method creates an object that contains RichEdit options initialized with default values
     const options = createOptions();
@@ -97,7 +98,7 @@ export default {
     options.events.autoCorrect = function (s, e) {
         if (e.text.length == 1 && /\w/.test(e.text)) {
             var prevText = s.document.getText(new Interval(e.interval.start - 2, 2));
-            if (prevText.length == 0 || /^(\. |\? |[!] )$/.test(prevText) || prevText.charCodeAt(1) == 13) {
+            if (prevText.length == 0 || /^([.]|[?]|[!] )$/.test(prevText) || prevText.charCodeAt(1) == 13) {
                 var newText = e.text.toUpperCase();
                 if (newText != e.text) {
                     s.beginUpdate();
