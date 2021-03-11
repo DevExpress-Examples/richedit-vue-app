@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "devexpress-richedit": "^19.2.7",
-    "devextreme": "^19.2.7",
+    "devexpress-richedit": "^19.2.8",
+    "devextreme": "^19.2.8",
     "vue": "^2.6.11"
   },
   "devDependencies": {
