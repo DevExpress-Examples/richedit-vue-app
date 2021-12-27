@@ -5,8 +5,7 @@
 <!-- default badges end -->
 # RichEdit Vue Application
 
-This example is a ready-to-use client Vue application with the DevExpress RichEdit component.
-> **Documentation**: [Rich Text Editor > Get Started > Vue Application](https://docs.devexpress.com/AspNetCore/401875/rich-edit/get-started/vue-application)
+This example is a ready-to-use client Vue application with the DevExpress [RichEdit](https://docs.devexpress.com/AspNetCore/400373/office-inspired-controls/controls/rich-edit) component.
 
 ## Requirements
 * To use the RichEdit control in a Vue application, you need to have a [Universal, DXperience, or ASP.NET subscription](https://www.devexpress.com/buy/net/).
@@ -27,9 +26,14 @@ npm run serve
 ```
 
 <!-- default file list -->
-*Files to look at*:
+## Files to Look At
 
 * [App.vue](./src/App.vue)
 * [main.js](./src/main.js)
 
 <!-- default file list end -->
+
+## Documentation
+
+- [Rich Text Editor](https://docs.devexpress.com/AspNetCore/400373/rich-edit)
+- [Get Started: Add RichEdit to a Vue Application](https://docs.devexpress.com/AspNetCore/401875/rich-edit/get-started/vue-application)
