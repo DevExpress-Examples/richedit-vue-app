@@ -1,8 +1,6 @@
 <template>
   <!-- <RichEdit /> -->
-  <div id="richedit">
-
-  </div>
+  <div ref="richEdit"/>
 </template>
 
 <script>
@@ -118,9 +116,7 @@ export default {
     options.width = '1400px';
     options.height = '800px';
 
-    var richElement = document.getElementById("richedit");
-
-    this.rich = create(richElement, options);
+    this.rich = create(this.$refs.richEdit, options);
     
     var documentAsBase64 = "e1xydGYxXGRlZmYwe1xmb250dGJse1xmMCBDYWxpYnJpO319e1xjb2xvcnRibCA7XHJlZDB"
         + "cZ3JlZW4wXGJsdWUyNTUgO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NSA7fXtcKlxkZWZjaHAgXGZzMjJ9e1xzdHl"
